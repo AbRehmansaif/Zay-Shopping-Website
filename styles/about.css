@@ -1,0 +1,387 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+                                                    /* Start Top Nav */
+.topBar{
+    margin-left: 100px;
+}
+.topBar a,.topBar i{
+    color: #CFD6D6;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 12px;
+}
+.topNav{
+    width: 100%;
+    height: 40px;
+    background-color: #212934;
+    display: flex;
+    align-items: center;
+}
+.topBarIcons{
+    margin-left: 57vw;
+}
+.topBarIcons a{
+    padding-right: 10px;
+    color: #EFEFEF;
+}
+/* Close Top Nav */
+
+/* Start Header */
+.header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.884);
+}
+.navLogo{
+    font-family: 'Roboto', sans-serif;
+    color: #59AB6E;
+    font-size: 43px;
+    cursor: pointer;
+    padding-left: 91px;
+    padding-right: 150px;
+}
+.navPages ul{
+    display: flex;
+}
+.navPages ul li, .firstCardFeaturedProduct ul li, .secondCardFeaturedProduct ul li, .thirdCardFeaturedProduct ul li{
+    list-style: none;
+}
+.navPages ul li a{
+    text-decoration: none;
+    color: #212934;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    padding-right: 137px;
+}
+.navIcons i{
+    color: black;
+    font-weight: 300;
+    font-size: 22px;
+}
+.navIcons span{
+    color: black;
+    font-weight: 900;
+    font-size: 12px;
+    position: relative;
+    top: -12px;
+    left: -15px;
+    background-color: #EFEFEF;
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    display: inline-block;
+    padding: 4px 2px 2px 2px;
+}
+                                                    /* Close Header */
+.aboutBanner{
+    width: 100%;
+    height: 85vh;
+    background-color: #59AB6E;
+    display: flex;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+.aboutBannerLabels{
+    width: 60%;
+    padding: 200px 20px 0px 100px;
+    line-height: 26px;
+}
+.aboutBannerLabels h2{
+    /* font-weight: 500; */
+    font-size: 30px;
+    color: white;
+    padding-bottom: 10px;
+}
+.aboutBannerLabels{
+    color: white;
+}
+.aboutBannerImage img{
+    margin-top: 70px;
+    width: 400px;
+    height: 400px;
+}
+/* Our Services */
+.ourServicesSection{
+    width: 100%;
+    height: 80vh;
+}
+.ourServicesLabel, .ourBrandLabel{
+    width: 462px;
+    padding-top: 86px;
+    margin-left: 440px;
+    text-align: center;
+}
+.ourServicesLabel h2, .ourBrandLabel h2{
+    font-size: 56px;
+    font-weight: 300;
+}
+.ourServicesLabel p, .ourBrandLabel p{
+    font-size: 19px;
+    font-weight: 200;
+    margin-top: 20px;
+    line-height: 26px;
+}
+.ourServicesCategories{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+/* .ourServicesCategories i:hover{
+    background-color: #59AB6E;
+    color: white;
+} */
+.ourService1, .ourService2, .ourService3, .ourService4{
+    width: 278px;
+    height: 30vh;
+    background-color: white;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    transition: .3s;
+}
+.ourService1:hover, .ourService2:hover, .ourService3:hover, .ourService4:hover{
+    background-color: #59AB6E;
+    color: white;
+}
+.ourService1 i, .ourService2 i, .ourService3 i, .ourService4 i{
+    font-size: 70px;
+    padding-top: 40px;
+    padding-bottom: 4px;
+    color: #59AB6E;
+}
+.ourService1 i:hover, .ourService2 i:hover, .ourService3 i:hover, .ourService4 i:hover{
+    /* color: white; */
+}
+.ourService1 p, .ourService2 p, .ourService3 p, .ourService4 p{
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 5px;
+}
+/* End Our Services */
+/* Start Brand section */
+
+.ourBrandsSection{
+    background-color: #E9EEF5;
+    width: 100%;
+    height: 70vh;
+}
+.ourBrandCategories{
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-evenly;
+}
+.ourBrandCategories img{
+    width: 90px;
+    height: 70px;
+    color: #EFEFEF;
+}
+/* End Brand section */
+/* Start footer */
+
+footer{
+    background-color: #212934;
+    width: 100%;
+    height: 85vh;
+}
+.footerContent{
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-evenly#2d343f;
+}
+.footerShopContent{
+    margin-left: 120px;
+    margin-right: 150px;
+}
+.footerProductContent{
+    margin-right: 210px;
+}
+.footerShopContent ul li, .footerProductContent ul li, .footerFurtherContent ul li, .socialLinks ul li{
+    list-style: none;
+    color: #EFEFEF;
+}
+.footerShopContent ul li a, .footerProductContent ul li a, .footerFurtherContent ul li a{
+    text-decoration: none;
+    color: #BCBCBC;
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: 300;
+}
+.footerShopContent ul li a:hover, .footerProductContent ul li a:hover, .footerFurtherContent ul li a:hover{
+    color: #59ab6e;
+}
+.footerShopContent h2, .footerProductContent h2, .footerFurtherContent h2{
+    font-size: 32px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    color: #BCBCBC;
+    border-bottom: 0.5px solid #dee2e686
+}
+.footerShopContent h2{
+    color: #59ab6e;
+}
+.socialLinks ul{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.socialLinks ul li a{
+    border: 0.5px solid #474849;
+    color: #cfd6e1;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+}
+.socialLinks ul li a:hover{
+    background-color: #cfd6e1;
+    color: #474849;
+}
+.navlinks{
+    height: 100px;
+    border-top: 1px solid #474849;
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 85px;
+    margin-top: 20px;
+}
+
+.navsearch{
+    display: flex;
+    align-items: center;
+}
+.navsearch input{
+    padding: 10px;
+    background-color: #212934;
+    border: 1px solid #474849 !important; 
+    border-radius: 2px;
+    border-style: none;
+    color: #59AB6E;
+}
+.navsearch input:focus{
+    outline-color: #59ab6e;
+    outline-style: solid;
+}
+/* Subscribe button */
+.wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .subscribe-btn{
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    margin-left: 0px;
+    padding: 10px;
+    background-color: #59ab6e;
+    color: #EFEFEF;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+    transition: all .35s;
+  }
+  .subscribe-btn.clicked{
+    background-color: #EFEFEF;
+}
+.subscribe-btn:hover{
+    background: #8C82FC;
+    color: #fff;
+  }
+  
+  .subscribe-btn span{
+    opacity: 1;
+    visibility: visible;
+    transition: all .35s;
+  }
+  
+.success{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .35s;
+  }
+  
+  .success svg{
+    width: 20px;
+    height: 20px;
+    fill: yellowgreen;
+    transform-origin: 50% 50%;
+    transform: translateY(-50%) rotate(0deg) scale(0);
+    transition: all .35s;
+  }
+  
+  .subscribe-btn.is_active{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .subscribe-btn.is_active .success{
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .subscribe-btn.is_active .success svg{
+    margin-top: 50%;
+    transform: translateY(-50%) rotate(720deg) scale(1);
+  }
+  
+  .subscribe-btn.is_active span{
+    opacity: 0;
+    visibility: hidden;
+  }
+  /* end Subscribe button */
+
+  
+
+                                                  /* End footer */
+                                            /* Start Copyright Section */
+.copyrightSection{
+    background-color: #1D242D;
+    width: 100%;
+    height: 10vh;
+}
+.copyrightSection P{
+    color: #BCBCBC;
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 21px;
+    text-align: center;
+}
+.copyrightSection a{
+    color: #59ab6e;
+}
+.copyrightSection a:hover{
+    font-weight: 600;
+}
+
+/* End Copyright Section */
+
+
+@media(maxwidth:600px){
+    footer{
+        background-color: #005de0;
+        width: 100%;
+        height: 25vh;
+    }
+  }
